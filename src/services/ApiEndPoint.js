@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://mern-note-app-backend-green.vercel.app',
+    baseURL: 'https://note-backend-two.vercel.app/',
     headers: {
         'Content-Type': 'application/json' // Removed extra space
     },
